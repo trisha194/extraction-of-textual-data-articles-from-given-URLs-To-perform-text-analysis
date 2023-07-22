@@ -1,0 +1,101 @@
+DOWNLOADING AND EXECUTING THE .py FILE:
+
+1. Download the Python file to a location on your computer.
+2. Open the terminal on your computer.
+3. Type cd followed by a space.
+4. Drag the folder containing the Python file from your file explorer and drop it onto the terminal. This will automatically fill in the file path for you.
+5. Press enter to execute the command.
+NOTE: IT'S JUST ONE WAY TO EXECUTE THE CODE, YOU CAN JUST COPY IT AND PASTE IT ON A CODE EDITOR OR FOLLOW SOME ANOTHER WAYS AS WELL TO RUN THE CODE WITHOUT ANY DOUBT.
+
+
+WHAT THIS CODE DOES?
+
+the code is written to perform sentiment analysis on a list of URLs, as well as calculate various metrics related to text complexity, such as the FOG index, average word length, and number of complex words.
+
+The program reads an Excel file called "Output Data Structure.xlsx" into a pandas dataframe, and accesses the column containing the URLs. It then iterates over the URLs and performs the following steps for each URL:
+
+1. Sends a GET request to the URL and retrieves the HTML content.
+2. Uses the BeautifulSoup library to extract the text content from the HTML.
+3. Calculates the positive and negative sentiment scores based on the number of positive and negative words in the text. The positive and negative words are stored in separate files called 4. "positive-words.txt" and "negative-words.txt".
+5. Calculates the polarity score, which is the difference between the positive and negative scores divided by the sum of the positive and negative scores.
+6. Calculates the number of words, number of sentences, and average sentence length.
+7. Calculates the number and percentage of complex words in the text. A complex word is defined as a word with more than two syllables.
+8. Calculates the FOG index, which is a measure of text complexity that takes into account the average sentence length and percentage of complex words.
+9. Calculates the average number of words per sentence.
+10. Removes stop words from the text and calculates the subjectivity score based on the remaining words.
+11. Counts the number of personal pronouns in the text.
+12. Calculates the average word length and average number of syllables per word.
+
+
+OUTPUT:
+
+After implementing each URL,the output window will show a statement like "url 'URL_ID' done" just to make sure that the program is running properly for each URL.(NOTE: it's ovbiosly not important to print the statements, it's just for convenience. can remove the print statement and it will not harm the whole code even a little bit)
+
+After calculating the linguistic features for all the URLs, the code appends the results to several lists, which are then written to a new Excel file using openpyxl. The output Excel file contains one row for each URL, with columns for each linguistic feature and the corresponding value.
+
+finally the output terminal will show "YOUR OUTPUT DATA HAS BEEN SUCCESSFULLY SAVED IN 'final_output.xlsx' EXCEL FILE IN THIS SAME FOLDER" which means the code has been run successfully and the output has been stored in a excel file named "final_output.xlsx" in the same directory. you can now open the excel file and check the results.
+
+NOTE: SOME OF THE URLs IN THE EXCEL SHEET DOES NOT EXISTS, FOR THOSE, THE CODE WILL PROVIDE "NULL" TO EVERY VARIABLE COLUMN.
+
+
+OUTPUT EXCEL FILE:
+
+The output excel file named "my_data_final.xlsx" of this code is also attached with the submission. kindly check wheather the outputs,I have got from this code,are correct or not.
+
+THANK YOU.
+
+
+
+Maulana Abul Kalam Azad University of Technology, West Bengal
+
+
+Thank you for considering me for the Data Science Internship opportunity at your company. I am excited about the prospect of working with your team and gaining valuable experience in the field.
+
+However, as a 2nd year computer science and engineering student, I am currently preparing for my 4th semester examinations which are scheduled to take place in a month and a half. I would like to focus on my studies and perform to the best of my ability during this time.
+
+If it's possible, I would appreciate it if we could explore the possibility of starting the internship after my exams are finished. I am available for full-time work at that time and would be eager to join your team.
+
+Thank you again for considering me for the position, and I look forward to hearing from you.
+
+
+
+
+
+1. excelent Programming Skill(python,c)
+2. basic Statistical Skill
+3. excelent Communication Skill
+4. Problem-Solving Skill
+5. Continuous Learning
+6. excelent DSA skill
+7. Data science, iot, Web scraping
+
+
+
+
+
+As a beginner in data science, I have focused on developing a strong foundation in programming, statistics, and data analysis. In my coursework, I have completed projects that involved data cleaning, data visualization, and statistical analysis using Python and R. I have also worked on personal projects, such as analyzing publicly available datasets and creating data visualizations to communicate insights. While I do not have any production-level apps or URLs to share at this time, I am eager to continue building my skills and working on new projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the data science internship position at Blackcoffer. As a 2nd year computer science and engineering student, I have developed a strong foundation in programming, data analysis, and statistics, with a particular focus on Python and C.
+
+In my coursework, I have completed projects that involved data cleaning, data visualization, and statistical analysis using Python. I am proficient in using libraries such as Pandas, Numpy, and Matplotlib to perform these tasks. I have also worked on C programming projects, which have given me experience with data structures and algorithms.
+
+Thank you for considering my application. I am eager to learn more about the data science internship position at Blackcoffer and am excited about the possibility of contributing to your team.
+
+Sincerely,
+
+Trisha Pal
